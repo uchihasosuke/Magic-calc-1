@@ -23,7 +23,7 @@ cd ..
 to run open 2 terminal:
 open calc-be folder for backend:
 pip install -r requirements.txt
-C:\Python310\python.exe -m venv venv
+python -m venv venv
 venv\Scripts\activate
 python main.py
 

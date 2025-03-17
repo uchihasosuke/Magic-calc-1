@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="H:\Documents\GitHub\Magic-Calc\math-notes\calc-be\venv"
+VIRTUAL_ENV="H:\Documents\GitHub\Magic-Calc\Magic-calc\calc-be\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

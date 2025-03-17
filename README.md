@@ -66,6 +66,24 @@ Magic Calc revolutionizes math and geometry problem-solving by eliminating the n
   - Advanced features for experts
   - Adaptive learning support
 
+## 🔧 Prerequisites
+
+Before running the application, ensure you have the following installed:
+
+### System Requirements
+- Python 3.10 or higher
+- Node.js 16.x or higher
+- npm (comes with Node.js)
+
+### API Keys
+You'll need a Google Gemini API key for the AI functionality. Get it from [Google AI Studio](https://aistudio.google.com/app/apikey).
+
+### Environment Setup
+1. In the `calc-be` directory, create a `.env` file with the following:
+```env
+GOOGLE_API_KEY="Enter API Key"
+```
+
 ## 🚀 Getting Started
 
 1. Visit our website or download the app
@@ -77,7 +95,7 @@ Magic Calc revolutionizes math and geometry problem-solving by eliminating the n
 
 The application consists of two parts: backend (calc-be) and frontend (calc-fe). You'll need to run both simultaneously.
 
-### Backend Setup
+### Backend Setup(new 1st terminal)
 ```bash
 # Navigate to backend directory
 cd calc-be
@@ -93,7 +111,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### Frontend Setup
+### Frontend Setup(new 2nd terminal)
 ```bash
 # Open a new terminal and navigate to frontend directory
 cd calc-fe
