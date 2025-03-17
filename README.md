@@ -73,38 +73,42 @@ Magic Calc revolutionizes math and geometry problem-solving by eliminating the n
 3. Draw your math problem or geometric figure
 4. Get instant solutions!
 
-## 💻 Installation
+## 💻 Installation & Setup
 
+The application consists of two parts: backend (calc-be) and frontend (calc-fe). You'll need to run both simultaneously.
+
+### Backend Setup
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/Magic-Calc.git
+# Navigate to backend directory
+cd calc-be
 
-# Navigate to the project directory
-cd Magic-Calc
+# Create and activate virtual environment
+python -m venv venv
+venv\Scripts\activate
 
 # Install dependencies
-npm install
+pip install -r requirements.txt
+
+# Start the backend server
+python main.py
+```
+
+### Frontend Setup
+```bash
+# Open a new terminal and navigate to frontend directory
+cd calc-fe
 
 # Start the development server
 npm run dev
 ```
 
-## 🤝 Contributing
+The application will now be running with both backend and frontend servers active.
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Support
-
-Need help? Have questions? Contact us:
-- 📧 Email: support@magiccalc.com
-- 💬 Discord: [Join our community](https://discord.gg/magiccalc)
-- 🌐 Website: https://magiccalc.com
-
----
+--
 
 <div align="center">
   <p>Let Magic Calc help you solve math and geometry problems in a fun, interactive, and effortless way—draw and solve instantly, anywhere!</p>
