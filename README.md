@@ -71,9 +71,22 @@ Magic Calc revolutionizes math and geometry problem-solving by eliminating the n
 Before running the application, ensure you have the following installed:
 
 ### System Requirements
-- Python 3.10 or higher
-- Node.js 16.x or higher
-- npm (comes with Node.js)
+- Python 3.10.0
+- Node.js v23.1.0
+- npm v10.9.0
+- Visual Studio 2022 with C++ development tools
+- C++ Build Tools (MSVC v143 - VS 2022 C++ x64/x86 build tools)
+
+### Build Tools Setup
+1. Install Visual Studio 2022 with the following components:
+   - Desktop development with C++
+   - Windows 10/11 SDK
+   - MSVC v143 - VS 2022 C++ x64/x86 build tools
+   - C++ CMake tools for Windows
+
+2. Ensure your system has the following environment variables set:
+   - `PATH` should include Visual Studio's build tools
+   - `INCLUDE` and `LIB` should be set for C++ development
 
 ### API Keys
 You'll need a Google Gemini API key for the AI functionality. Get it from [Google AI Studio](https://aistudio.google.com/app/apikey).
